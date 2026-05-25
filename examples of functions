@@ -1,0 +1,38 @@
+1.
+def rocky(name,age):
+    print(name+"age is"+age)
+
+rocky("hemu","19")
+
+2.
+def value(number):
+    if number>=0:
+        print(number)
+
+value(29)
+
+
+3.
+def names(*args):
+    print("type",type(args))
+    print("1st_argument",args[0])
+    print("2nd_argument",args[1])
+    print("3rd_argument",args[2])
+    print("4th_argument",args[3])
+names("java","python","data science","Gen AI")
+
+
+4.
+def numbers(*number):
+    i=0
+    while i<len(number):
+        print(number[i])
+        i+=1
+numbers(1,2,4,3,4,5,1,6,7,4,7,1,8,6,3,4)
+
+
+5.
+def student():
+    name="hemakumar"
+    print(name)
+student()
